@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/OlaMundo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/OlaMundoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/UserJsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/UserJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/UserJsonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +26,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2GxamhuVNrFWQuTmHeMMFgH2GFd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Gustavo Lourenço/Documents/RESTassured/restAssuredProjects"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.UserJsonTest.deveVerificarListaNaRaiz">
+}]]></component>
+  <component name="RunManager" selected="JUnit.UserJsonTest.devoUnirJsonPathComJAVA">
     <configuration name="UserJsonTest.deveRetornarErroUsuarioInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured" />
       <extension name="coverage">
@@ -79,38 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserJsonTest.deveVerificarPrimeiroItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.UserJsonTest" />
-      <option name="METHOD_NAME" value="deveVerificarPrimeiroItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserJsonTest.deveVerificarPrimeiroNivelOutrasFormas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.UserJsonTest" />
-      <option name="METHOD_NAME" value="deveVerificarPrimeiroNivelOutrasFormas" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserJsonTest.deveVerificarSegundoNivel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured" />
       <extension name="coverage">
@@ -127,13 +96,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserJsonTest.devoFazerVerificacoesAvancadas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssuredProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.UserJsonTest" />
+      <option name="METHOD_NAME" value="devoFazerVerificacoesAvancadas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserJsonTest.devoUnirJsonPathComJAVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssuredProjects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.UserJsonTest" />
+      <option name="METHOD_NAME" value="devoUnirJsonPathComJAVA" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserJsonTest.devoUnirJsonPathComJAVA" />
+        <item itemvalue="JUnit.UserJsonTest.devoFazerVerificacoesAvancadas" />
         <item itemvalue="JUnit.UserJsonTest.deveVerificarListaNaRaiz" />
         <item itemvalue="JUnit.UserJsonTest.deveRetornarErroUsuarioInexistente" />
         <item itemvalue="JUnit.UserJsonTest.deveVerificarSegundoNivel" />
-        <item itemvalue="JUnit.UserJsonTest.deveVerificarPrimeiroNivelOutrasFormas" />
-        <item itemvalue="JUnit.UserJsonTest.deveVerificarPrimeiroItem" />
       </list>
     </recent_temporary>
   </component>
@@ -158,20 +159,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/UserJsonTest.java</url>
-          <line>84</line>
-          <properties class="br.ce.wcacquino.rest.UserJsonTest" method="deveVerificarListaNaRaiz">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
