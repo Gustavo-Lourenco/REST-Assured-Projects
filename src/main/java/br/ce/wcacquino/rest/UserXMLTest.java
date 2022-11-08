@@ -1,7 +1,14 @@
 package br.ce.wcacquino.rest;
 
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.filter.log.LogDetail;
 import io.restassured.internal.path.xml.NodeImpl;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,13 +18,36 @@ import static org.hamcrest.Matchers.*;
 
 public class UserXMLTest {
 
+    public static RequestSpecification reqSpec;
+    public static ResponseSpecification resSpec;
+    @BeforeClass
+    public static void setup(){
+        RestAssured.baseURI = "https://restapi.wcaquino.me";
+        RestAssured.port = 443; //Não é necessário pois o 80 é default.
+        RestAssured.basePath = "";
+
+        RequestSpecBuilder reqBuilder = new RequestSpecBuilder();
+        reqBuilder.log(LogDetail.ALL);
+        reqSpec = reqBuilder.build();
+
+        ResponseSpecBuilder resBuilder = new ResponseSpecBuilder();
+        resBuilder.expectStatusCode(200);
+        resSpec = resBuilder.build();
+
+        RestAssured.requestSpecification = reqSpec;
+        RestAssured.responseSpecification = resSpec;
+
+
+    }
+
     @Test
     public void devoTrabalharComXML(){
+
         given()
         .when()
-            .get("http://restapi.wcaquino.me/usersXML/3")
+            .get("/usersXML/3")
         .then()
-            .statusCode(200)
+            //.statusCode(200)
             .body("user.name", is("Ana Julia"))
             .body("user.@id", is("3"))
             .body("user.filhos.name.size()", is(2))
@@ -32,9 +62,9 @@ public class UserXMLTest {
     public void devoTrabalharComXMLRootPath(){
         given()
         .when()
-            .get("http://restapi.wcaquino.me/usersXML/3")
+            .get("/usersXML/3")
         .then()
-            .statusCode(200)
+            //.statusCode(200)
             .rootPath("user")
             .body("name", is("Ana Julia"))
             .body("@id", is("3"))
@@ -53,7 +83,7 @@ public class UserXMLTest {
     public void devoFazerPesquisasAvancadasComXML(){
         given()
         .when()
-            .get("http://restapi.wcaquino.me/usersXML")
+            .get("/usersXML")
         .then()
             .statusCode(200)
             .body("users.user.size()", is(3))
@@ -63,7 +93,7 @@ public class UserXMLTest {
             .body("users.user.findAll{it.name.toString().contains('n')}.name", hasItems("Maria Joaquina", "Ana Julia"))
             .body("users.user.salary.find{it != null}.toDouble()", is(1234.5678d))
             .body("users.user.age.collect{it.toInteger() * 2}", hasItems(40, 50, 60))
-            .body("users.user.namefindAll{it.toString().startsWith('Maria')}.collect{it.toString().toUpperCase()}",is("MARIA") )
+            .body("users.user.name.findAll{it.toString().startsWith('Maria')}.collect{it.toString().toUpperCase()}",is("MARIA JOAQUINA") )
         ;
     }
 
@@ -71,7 +101,7 @@ public class UserXMLTest {
     public void devoFazerPesquisasAvancadasComXMLEJava(){
         ArrayList<NodeImpl> nomes = given()
         .when()
-            .get("http://restapi.wcaquino.me/usersXML")
+            .get("/usersXML")
         .then()
             .statusCode(200)
             .extract().path("users.user.name.findAll{it.toString().contains('n')}")
@@ -85,27 +115,24 @@ public class UserXMLTest {
     public void devoFazerPesquisasAvancadasComXPath(){
         given()
         .when()
-            .get("http://restapi.wcaquino.me/usersXML")
+            .get("/usersXML")
         .then()
             .statusCode(200)
             .body(hasXPath("count(/users/user)", is("3")))
-                .body(hasXPath("/users/user[@id = '1']"))
-                .body(hasXPath("//user[@id = '2']"))
-                .body(hasXPath("//name[text() = 'Luizinho']/../../name", is("Ana Julia")))
-                .body(hasXPath("//name[text() = 'Ana Julia']/following-sibling::filhos", allOf(containsString("Zezinho"), containsString("Luizinho)"))))
-                //.body(hasXPath("/users/user/name", is("João da Silva")))
-                //.body(hasXPath("//name", is("João da Silva")))
-                //.body(hasXPath("/users/user[2]/name", is("Maria Joaquina")))
-                //.body(hasXPath("/users/user[last()]/name", is("Ana Julia")))
-                //.body(hasXPath("count(/users/user/name[contains(., 'n')])", is("2")))
-                //.body(hasXPath("//user[age < 24]", is("Ana Julia")))
-                //.body(hasXPath("//user[age > 20 and age < 30]/name", is("Maria Joaquina")))
-                //.body(hasXPath("//user[age > 20][age < 30]/name", is("Maria Joaquina")))
+            .body(hasXPath("/users/user[@id = '1']"))
+            .body(hasXPath("//user[@id = '2']"))
+            .body(hasXPath("//name[text() = 'Luizinho']/../../name", is("Ana Julia")))
+            .body(hasXPath("//name[text() = 'Ana Julia']/following-sibling::filhos", allOf(containsString("Zezinho"), containsString("Luizinho"))))
+            .body(hasXPath("/users/user/name", is("João da Silva")))
+            .body(hasXPath("//name", is("João da Silva")))
+            .body(hasXPath("/users/user[2]/name", is("Maria Joaquina")))
+            .body(hasXPath("/users/user[last()]/name", is("Ana Julia")))
+            .body(hasXPath("count(/users/user/name[contains(., 'n')])", is("2")))
+            .body(hasXPath("//user[age < 24]/name", is("Ana Julia")))
+            .body(hasXPath("//user[age > 20 and age < 30]/name", is("Maria Joaquina")))
+            .body(hasXPath("//user[age > 20][age < 30]/name", is("Maria Joaquina")))
         ;
     }
-
-
-
 
 
 }
