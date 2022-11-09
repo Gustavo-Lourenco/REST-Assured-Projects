@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ArquivoGrande.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/SchemaXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/EnvioDadosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/EnvioDadosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/HTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/HTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <recent name="C:\Users\gustavo.lourenco\Meus Documentos\restAssured\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileTest.deveBaixarArquivo">
+  <component name="RunManager" selected="JUnit.SchemaXML">
     <configuration name="FileTest.deveBaixarArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
@@ -73,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest.deveFazerUploadDoArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SchemaXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -82,14 +81,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
-      <option name="METHOD_NAME" value="deveFazerUploadDoArquivo" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchemaXML.deveValidarSchemaJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssured (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
+      <option name="METHOD_NAME" value="deveValidarSchemaJSON" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest.deveObrigarEnvioArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SchemaXML.deveValidarSchemaXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
-      <option name="METHOD_NAME" value="deveObrigarEnvioArquivo" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
+      <option name="METHOD_NAME" value="deveValidarSchemaXML" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest.naoDeveFazerUploadDeArquivoGrande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SchemaXML.naoDeveValidarSchemaXMLInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -114,24 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
-      <option name="METHOD_NAME" value="naoDeveFazerUploadDeArquivoGrande" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HTML.deveFazerBuscasComXpathEmHTML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.HTML" />
-      <option name="METHOD_NAME" value="deveFazerBuscasComXpathEmHTML" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
+      <option name="METHOD_NAME" value="naoDeveValidarSchemaXMLInvalido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SchemaXML" />
+        <item itemvalue="JUnit.SchemaXML.deveValidarSchemaJSON" />
+        <item itemvalue="JUnit.SchemaXML.naoDeveValidarSchemaXMLInvalido" />
+        <item itemvalue="JUnit.SchemaXML.deveValidarSchemaXML" />
         <item itemvalue="JUnit.FileTest.deveBaixarArquivo" />
-        <item itemvalue="JUnit.FileTest.naoDeveFazerUploadDeArquivoGrande" />
-        <item itemvalue="JUnit.FileTest.deveFazerUploadDoArquivo" />
-        <item itemvalue="JUnit.FileTest.deveObrigarEnvioArquivo" />
-        <item itemvalue="JUnit.HTML.deveFazerBuscasComXpathEmHTML" />
       </list>
     </recent_temporary>
   </component>
