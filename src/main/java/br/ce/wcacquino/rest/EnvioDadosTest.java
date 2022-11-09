@@ -1,7 +1,6 @@
 package br.ce.wcacquino.rest;
 
 import io.restassured.http.ContentType;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;

@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/EnvioDadosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/HTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ArquivoGrande.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/EnvioDadosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/EnvioDadosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/HTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/HTML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +51,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Gustavo Lourenço/Documents/RESTassured/restAssuredProjects&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HTML.deveFazerBuscasComXpathEmHTML">
-    <configuration name="EnvioDadosTest.deveEnviarValoViaHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gustavo.lourenco\Meus Documentos\restAssured\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FileTest.deveBaixarArquivo">
+    <configuration name="FileTest.deveBaixarArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -58,14 +66,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.EnvioDadosTest" />
-      <option name="METHOD_NAME" value="deveEnviarValoViaHeader" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
+      <option name="METHOD_NAME" value="deveBaixarArquivo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnvioDadosTest.deveEnviarValoViaQueryViaParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.deveFazerUploadDoArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +82,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.EnvioDadosTest" />
-      <option name="METHOD_NAME" value="deveEnviarValoViaQueryViaParam" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
+      <option name="METHOD_NAME" value="deveFazerUploadDoArquivo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnvioDadosTest.deveEnviarValorViaHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.deveObrigarEnvioArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.EnvioDadosTest" />
-      <option name="METHOD_NAME" value="deveEnviarValorViaHeader" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
+      <option name="METHOD_NAME" value="deveObrigarEnvioArquivo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTML.deveFazerBuscasComHTML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.naoDeveFazerUploadDeArquivoGrande" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +114,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.HTML" />
-      <option name="METHOD_NAME" value="deveFazerBuscasComHTML" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
+      <option name="METHOD_NAME" value="naoDeveFazerUploadDeArquivoGrande" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileTest.deveBaixarArquivo" />
+        <item itemvalue="JUnit.FileTest.naoDeveFazerUploadDeArquivoGrande" />
+        <item itemvalue="JUnit.FileTest.deveFazerUploadDoArquivo" />
+        <item itemvalue="JUnit.FileTest.deveObrigarEnvioArquivo" />
         <item itemvalue="JUnit.HTML.deveFazerBuscasComXpathEmHTML" />
-        <item itemvalue="JUnit.HTML.deveFazerBuscasComHTML" />
-        <item itemvalue="JUnit.EnvioDadosTest.deveEnviarValorViaHeader" />
-        <item itemvalue="JUnit.EnvioDadosTest.deveEnviarValoViaHeader" />
-        <item itemvalue="JUnit.EnvioDadosTest.deveEnviarValoViaQueryViaParam" />
       </list>
     </recent_temporary>
   </component>
