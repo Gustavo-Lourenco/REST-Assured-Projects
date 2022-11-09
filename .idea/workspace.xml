@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/VerbosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/UserXMLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/UserXMLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/VerbosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/VerbosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +48,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Gustavo Lourenço/Documents/RESTassured/restAssuredProjects&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.VerbosTest">
-    <configuration name="VerbosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VerbosTest.deveDeserializarXMLAoSalvarUsuarios">
+    <configuration name="VerbosTest.deveDeserializarObjetoAoSalvarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -59,28 +59,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
       <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.VerbosTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerbosTest.deveRemoverUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.VerbosTest" />
-      <option name="METHOD_NAME" value="deveRemoverUsuario" />
+      <option name="METHOD_NAME" value="deveDeserializarObjetoAoSalvarUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.devoCustomizarURL (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveDeserializarXMLAoSalvarUsuarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -90,29 +75,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
       <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.VerbosTest" />
-      <option name="METHOD_NAME" value="devoCustomizarURL" />
+      <option name="METHOD_NAME" value="deveDeserializarXMLAoSalvarUsuarios" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.devoCustomizarURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.VerbosTest" />
-      <option name="METHOD_NAME" value="devoCustomizarURL" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerbosTest.naoDeveRemoverUsuarioInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveSalvarUsuarioUsandoMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +91,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
       <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.VerbosTest" />
-      <option name="METHOD_NAME" value="naoDeveRemoverUsuarioInexistente" />
+      <option name="METHOD_NAME" value="deveSalvarUsuarioUsandoMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerbosTest.deveSalvarUsuarioUsandoObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssured (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.VerbosTest" />
+      <option name="METHOD_NAME" value="deveSalvarUsuarioUsandoObjeto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerbosTest.deveSalvarUsuariosViaXMLUsandoObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssured (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.VerbosTest" />
+      <option name="METHOD_NAME" value="deveSalvarUsuariosViaXMLUsandoObjeto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VerbosTest" />
-        <item itemvalue="JUnit.VerbosTest.naoDeveRemoverUsuarioInexistente" />
-        <item itemvalue="JUnit.VerbosTest.deveRemoverUsuario" />
-        <item itemvalue="JUnit.VerbosTest.devoCustomizarURL (1)" />
-        <item itemvalue="JUnit.VerbosTest.devoCustomizarURL" />
+        <item itemvalue="JUnit.VerbosTest.deveDeserializarXMLAoSalvarUsuarios" />
+        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuariosViaXMLUsandoObjeto" />
+        <item itemvalue="JUnit.VerbosTest.deveDeserializarObjetoAoSalvarUsuario" />
+        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuarioUsandoObjeto" />
+        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuarioUsandoMap" />
       </list>
     </recent_temporary>
   </component>
