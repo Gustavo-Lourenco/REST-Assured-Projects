@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/SchemaXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/wcacquino/rest/AuthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +52,8 @@
       <recent name="C:\Users\gustavo.lourenco\Meus Documentos\restAssured\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SchemaXML">
-    <configuration name="FileTest.deveBaixarArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AuthTest.deveAcessarAplicacaoWeb">
+    <configuration name="AuthTest.deveAcessarAplicacaoWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -65,14 +62,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.FileTest" />
-      <option name="METHOD_NAME" value="deveBaixarArquivo" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveAcessarAplicacaoWeb" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTest.deveFazerAutenticacaoBasica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -81,29 +78,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SchemaXML.deveValidarSchemaJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
-      <option name="METHOD_NAME" value="deveValidarSchemaJSON" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveFazerAutenticacaoBasica" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaXML.deveValidarSchemaXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTest.deveFazerAutenticacaoBasica2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +94,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
-      <option name="METHOD_NAME" value="deveValidarSchemaXML" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveFazerAutenticacaoBasica2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaXML.naoDeveValidarSchemaXMLInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTest.deveFazerAutenticacaoBasicaChallenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +110,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.SchemaXML" />
-      <option name="METHOD_NAME" value="naoDeveValidarSchemaXMLInvalido" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveFazerAutenticacaoBasicaChallenger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTest.deveFazerAutenticacaoComToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssured (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveFazerAutenticacaoComToken" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SchemaXML" />
-        <item itemvalue="JUnit.SchemaXML.deveValidarSchemaJSON" />
-        <item itemvalue="JUnit.SchemaXML.naoDeveValidarSchemaXMLInvalido" />
-        <item itemvalue="JUnit.SchemaXML.deveValidarSchemaXML" />
-        <item itemvalue="JUnit.FileTest.deveBaixarArquivo" />
+        <item itemvalue="JUnit.AuthTest.deveAcessarAplicacaoWeb" />
+        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoComToken" />
+        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoBasicaChallenger" />
+        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoBasica2" />
+        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoBasica" />
       </list>
     </recent_temporary>
   </component>
