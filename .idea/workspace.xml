@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRestRefactor/AuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRestRefactor/ContasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRestRefactor/MovimentacaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRestRefactor/SaldoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/suitedetestes/Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/desafioRest/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,94 +56,96 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gustavo.lourenco\Meus Documentos\restAssured\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.desafioRestRefactor" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Teste">
-    <configuration name="Teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Suite">
+    <configuration name="AuthTest.naoDeveAcessarAPISemToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.desafioRest.*" />
+          <option name="PATTERN" value="br.desafioRestRefactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.desafioRest" />
-      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
+      <option name="PACKAGE_NAME" value="br.desafioRestRefactor" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRestRefactor.AuthTest" />
+      <option name="METHOD_NAME" value="naoDeveAcessarAPISemToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovimentacaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssured (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.desafioRestRefactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.desafioRestRefactor" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRestRefactor.MovimentacaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste.deveCalcularSaldoConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovimentacaoTest.naoDeveExcluirContaComMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.desafioRest.*" />
+          <option name="PATTERN" value="br.desafioRestRefactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.desafioRest" />
-      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
-      <option name="METHOD_NAME" value="deveCalcularSaldoConta" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Teste.deveRemoverMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.desafioRest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.desafioRest" />
-      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
-      <option name="METHOD_NAME" value="deveRemoverMovimentacao" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Teste.naoDeveAdicionarMovimentacaoFutura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.desafioRest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.desafioRest" />
-      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
-      <option name="METHOD_NAME" value="naoDeveAdicionarMovimentacaoFutura" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Teste.naoDeveExcluirContaComMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restAssured (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.desafioRest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.desafioRest" />
-      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
+      <option name="PACKAGE_NAME" value="br.desafioRestRefactor" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRestRefactor.MovimentacaoTest" />
       <option name="METHOD_NAME" value="naoDeveExcluirContaComMovimentacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaldoTest.deveCalcularSaldoConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssured (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.desafioRestRefactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.desafioRestRefactor" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRestRefactor.SaldoTest" />
+      <option name="METHOD_NAME" value="deveCalcularSaldoConta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Suite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restAssured (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.suitedetestes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.suitedetestes" />
+      <option name="MAIN_CLASS_NAME" value="br.suitedetestes.Suite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Teste" />
-        <item itemvalue="JUnit.Teste.deveRemoverMovimentacao" />
-        <item itemvalue="JUnit.Teste.deveCalcularSaldoConta" />
-        <item itemvalue="JUnit.Teste.naoDeveExcluirContaComMovimentacao" />
-        <item itemvalue="JUnit.Teste.naoDeveAdicionarMovimentacaoFutura" />
+        <item itemvalue="JUnit.Suite" />
+        <item itemvalue="JUnit.AuthTest.naoDeveAcessarAPISemToken" />
+        <item itemvalue="JUnit.SaldoTest.deveCalcularSaldoConta" />
+        <item itemvalue="JUnit.MovimentacaoTest" />
+        <item itemvalue="JUnit.MovimentacaoTest.naoDeveExcluirContaComMovimentacao" />
       </list>
     </recent_temporary>
   </component>
