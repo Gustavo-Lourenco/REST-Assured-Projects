@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Movimentacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/DateUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/desafioRest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/desafioRest/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Constantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/desafioRest/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +53,8 @@
       <recent name="C:\Users\gustavo.lourenco\Meus Documentos\restAssured\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Teste.deveRemoverMovimentacao">
-    <configuration name="Teste.deveAdicionarMovimentacaoComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Teste">
+    <configuration name="Teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +64,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.desafioRest" />
       <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
-      <option name="METHOD_NAME" value="deveAdicionarMovimentacaoComSucesso" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Teste" />
         <item itemvalue="JUnit.Teste.deveRemoverMovimentacao" />
         <item itemvalue="JUnit.Teste.deveCalcularSaldoConta" />
         <item itemvalue="JUnit.Teste.naoDeveExcluirContaComMovimentacao" />
         <item itemvalue="JUnit.Teste.naoDeveAdicionarMovimentacaoFutura" />
-        <item itemvalue="JUnit.Teste.deveAdicionarMovimentacaoComSucesso" />
       </list>
     </recent_temporary>
   </component>
