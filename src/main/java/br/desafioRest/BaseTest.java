@@ -23,7 +23,6 @@ public class BaseTest extends Constantes {
         RestAssured.responseSpecification = resBuilder.build();
 
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-
     }
 
 }

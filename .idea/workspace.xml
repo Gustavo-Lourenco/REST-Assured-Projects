@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e20887ce-1947-4a2f-88c0-4dca5d03eab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Constantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Movimentacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/desafioRest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/desafioRest/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/desafioRest/Constantes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,82 +55,82 @@
       <recent name="C:\Users\gustavo.lourenco\Meus Documentos\restAssured\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthTest.deveAcessarAplicacaoWeb">
-    <configuration name="AuthTest.deveAcessarAplicacaoWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Teste.deveRemoverMovimentacao">
+    <configuration name="Teste.deveAdicionarMovimentacaoComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="PATTERN" value="br.desafioRest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
-      <option name="METHOD_NAME" value="deveAcessarAplicacaoWeb" />
+      <option name="PACKAGE_NAME" value="br.desafioRest" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
+      <option name="METHOD_NAME" value="deveAdicionarMovimentacaoComSucesso" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTest.deveFazerAutenticacaoBasica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.deveCalcularSaldoConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="PATTERN" value="br.desafioRest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
-      <option name="METHOD_NAME" value="deveFazerAutenticacaoBasica" />
+      <option name="PACKAGE_NAME" value="br.desafioRest" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
+      <option name="METHOD_NAME" value="deveCalcularSaldoConta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTest.deveFazerAutenticacaoBasica2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.deveRemoverMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="PATTERN" value="br.desafioRest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
-      <option name="METHOD_NAME" value="deveFazerAutenticacaoBasica2" />
+      <option name="PACKAGE_NAME" value="br.desafioRest" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
+      <option name="METHOD_NAME" value="deveRemoverMovimentacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTest.deveFazerAutenticacaoBasicaChallenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.naoDeveAdicionarMovimentacaoFutura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="PATTERN" value="br.desafioRest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
-      <option name="METHOD_NAME" value="deveFazerAutenticacaoBasicaChallenger" />
+      <option name="PACKAGE_NAME" value="br.desafioRest" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
+      <option name="METHOD_NAME" value="naoDeveAdicionarMovimentacaoFutura" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTest.deveFazerAutenticacaoComToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Teste.naoDeveExcluirContaComMovimentacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restAssured (1)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.ce.wcacquino.rest.*" />
+          <option name="PATTERN" value="br.desafioRest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.ce.wcacquino.rest" />
-      <option name="MAIN_CLASS_NAME" value="br.ce.wcacquino.rest.AuthTest" />
-      <option name="METHOD_NAME" value="deveFazerAutenticacaoComToken" />
+      <option name="PACKAGE_NAME" value="br.desafioRest" />
+      <option name="MAIN_CLASS_NAME" value="br.desafioRest.Teste" />
+      <option name="METHOD_NAME" value="naoDeveExcluirContaComMovimentacao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthTest.deveAcessarAplicacaoWeb" />
-        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoComToken" />
-        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoBasicaChallenger" />
-        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoBasica2" />
-        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoBasica" />
+        <item itemvalue="JUnit.Teste.deveRemoverMovimentacao" />
+        <item itemvalue="JUnit.Teste.deveCalcularSaldoConta" />
+        <item itemvalue="JUnit.Teste.naoDeveExcluirContaComMovimentacao" />
+        <item itemvalue="JUnit.Teste.naoDeveAdicionarMovimentacaoFutura" />
+        <item itemvalue="JUnit.Teste.deveAdicionarMovimentacaoComSucesso" />
       </list>
     </recent_temporary>
   </component>
